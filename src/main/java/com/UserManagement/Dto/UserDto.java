@@ -58,5 +58,7 @@ public class UserDto
 
     private String ci;
 
+    private String codeOmega;
+
 	  private String role;
 }

@@ -117,6 +117,7 @@ public class UserServiceImpl implements UserService {
         userDto.setPasswordTeams(user.getPasswordTeams());
         userDto.setHbDate(user.getHbDate());
         userDto.setCi(user.getCi());
+        userDto.setCodeOmega(user.getCodeOmega());
         return userDto;
     }
 

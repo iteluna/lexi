@@ -58,6 +58,9 @@ public class User {
     @Column(nullable=false)
     private String ci;
 
+    @Column(nullable=false)
+    private String codeOmega;
+
     @ManyToMany(fetch = FetchType.EAGER, cascade=CascadeType.ALL)
     @JoinTable(
             name="users_roles",
